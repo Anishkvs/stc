@@ -29,6 +29,7 @@ public class BannerPage extends AndroidActions {
 	private WebElement bannerMenu;
 
 	public void viewBannerMenu() throws InterruptedException {
+		Thread.sleep(5000);
 		Boolean menu = bannerMenu.isDisplayed();
 		System.out.println("Banner Menu is displayed: "+menu);
 	}

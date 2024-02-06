@@ -55,7 +55,9 @@ public class HomePage extends AndroidActions {
 		Boolean existUser =AlreadyCustomer.isDisplayed();
 		System.out.println("Already a Customer is displayed: "+existUser);
 	}
-
+	public void setAlreadyCustomer() {
+		AlreadyCustomer.click();
+	}
 	public void viewEnglishToArabTransulate() {
 		Boolean transulator =EnglishToArabTransulate.isDisplayed();
 		System.out.println("Transulator is displayed: "+transulator);
@@ -137,4 +139,18 @@ public class HomePage extends AndroidActions {
 		System.out.println("welcome is displayed: "+welcome);
 
 	}
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text=\"E-STORE\"]")
+	private WebElement E_Store;
+	
+	public void getE_Store() {
+		E_Store.click();
+	}
+	
+	@AndroidFindBy(xpath = "//android.widget.TextView[@text=\"MORE\"]")
+	private WebElement moreMenu;
+	
+	public void getMore() {
+		moreMenu.click();
+	}
+	
 }

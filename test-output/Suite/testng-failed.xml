@@ -6,20 +6,21 @@
   </listeners>
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="stc.TC_QuickPay_Civil_ID">
+      <class name="stcTwo.TC_11_AlreadyLoginScenario">
         <methods>
+          <include name="sc_AlreadyLoginInValidOTPScenario"/>
           <include name="tearDown"/>
           <include name="configureAppium"/>
-          <include name="sc_CivilId_QuickPayVerify"/>
+          <include name="sc_AlreadyLoginScenario"/>
         </methods>
-      </class> <!-- stc.TC_QuickPay_Civil_ID -->
-      <class name="stc.TC_AddCardScenario">
+      </class> <!-- stcTwo.TC_11_AlreadyLoginScenario -->
+      <class name="stc.TC_05_quickPay_Multiple_Line_Postpaid">
         <methods>
           <include name="tearDown"/>
+          <include name="sc_quickPay_Multiple_Line_Postpaid_Scenario"/>
           <include name="configureAppium"/>
-          <include name="sc_AddCardScenario"/>
         </methods>
-      </class> <!-- stc.TC_AddCardScenario -->
+      </class> <!-- stc.TC_05_quickPay_Multiple_Line_Postpaid -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

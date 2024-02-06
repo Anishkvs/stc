@@ -30,7 +30,7 @@ public class TC_AddCardScenario extends BaseTest{
 		AddCardPage card = new AddCardPage(driver);
 		home.setQuickPay();
 		num.enterNumber("96676937");
-		num.getContinue();
+		num.setContinue();
 		amountEdit.setAmount();
 		amount.setTwoKD();
 		amount.setContinue();

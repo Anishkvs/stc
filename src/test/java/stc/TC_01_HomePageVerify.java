@@ -16,7 +16,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import com.google.common.collect.ImmutableMap;
 
-public class TC_HomePageVerify extends BaseTest{
+public class TC_01_HomePageVerify extends BaseTest{
 	
 	//@BeforeMethod
 	public void preSetup() {

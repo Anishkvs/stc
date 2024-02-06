@@ -11,15 +11,19 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
-		 	<class name="stc.TC_HomePageVerify" />
-			<class name="stc.TC_quickPay" />
-			<class name="stc.TC_Recharge" />
-			<class name="stc.TC_MultiPayment" />
-			<class name="stc.TC_quickPay_Multiple_Line_Postpaid" />
-			<class name="stc.TC_AddCardScenario" />
-			<class name="stc.TC_QuickPay_Civil_ID" />
-			<class name="stc.TC_Banners" />
+			<class name="stc.TC_01_HomePageVerify" />
+			<class name="stc.TC_02_quickPay" />
+			<class name="stc.TC_03_Recharge" />
+			<class name="stc.TC_04_MultiPayment" />
+			<class name="stc.TC_05_quickPay_Multiple_Line_Postpaid" />
+			<class name="stc.TC_06_Banners" />
+			<class name="stc.TC_07_NewsStore" />
 
+			<class name="stcTwo.TC_11_AlreadyLoginScenario" />
+			<class name="stcTwo.TC_12_DashboardScenario" />
+			
+			<!--	<class name="stc.TC_AddCardScenario" />
+			<class name="stc.TC_QuickPay_Civil_ID" />  -->
 
 		</classes>
 	</test> <!--

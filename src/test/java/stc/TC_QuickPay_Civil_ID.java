@@ -25,7 +25,7 @@ public class TC_QuickPay_Civil_ID extends BaseTest{
 		
 		home.setQuickPay();
 		num.enterNumber("279040701371");
-		num.getContinue();
+		num.setContinue();
 		//otp.getBack();
 		//num.enterNumber("279040701371");
 		//num.getContinue();

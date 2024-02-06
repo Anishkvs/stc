@@ -8,7 +8,7 @@ import org.stc.pageObjects.android.NumberPage;
 import org.stc.pageObjects.android.PaymentPage;
 import org.testng.annotations.Test;
 
-public class TC_MultiPayment extends BaseTest {
+public class TC_04_MultiPayment extends BaseTest {
 
 	@Test
 	public void sc_MultiplePaymentScenario() throws InterruptedException {
@@ -19,7 +19,7 @@ public class TC_MultiPayment extends BaseTest {
 		PaymentPage pay = new PaymentPage(driver);
 		home.setQuickPay();
 		num.enterNumber("51195933");
-		num.getContinue();
+		num.setContinue();
 		amountEdit.setAmount();
 		amount.setTwoKD();
 		amount.setContinue();

@@ -1,266 +1,141 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="6" failed="2" skipped="0">
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-05T20:51:12 IST" name="Suite" finished-at="2024-02-05T21:01:19 IST" duration-ms="607145">
+  <suite started-at="2024-02-06T20:07:59 IST" name="Suite" finished-at="2024-02-06T20:23:21 IST" duration-ms="922111">
     <groups>
     </groups>
-    <test started-at="2024-02-05T20:51:12 IST" name="Test" finished-at="2024-02-05T21:01:19 IST" duration-ms="607145">
-      <class name="stc.TC_quickPay">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_quickPay@31bcf236]" started-at="2024-02-05T20:52:12 IST" name="configureAppium" finished-at="2024-02-05T20:52:24 IST" duration-ms="12052" status="PASS">
+    <test started-at="2024-02-06T20:07:59 IST" name="Test" finished-at="2024-02-06T20:23:21 IST" duration-ms="922111">
+      <class name="stcTwo.TC_11_AlreadyLoginScenario">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:17:29 IST" name="configureAppium" finished-at="2024-02-06T20:17:41 IST" duration-ms="11959" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_QuickPayScenario()[pri:0, instance:stc.TC_quickPay@31bcf236]" started-at="2024-02-05T20:52:24 IST" name="sc_QuickPayScenario" finished-at="2024-02-05T20:53:07 IST" duration-ms="42616" status="PASS">
+        <test-method signature="sc_AlreadyLoginScenario()[pri:1, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:17:41 IST" name="sc_AlreadyLoginScenario" finished-at="2024-02-06T20:19:30 IST" duration-ms="109631" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sc_QuickPayScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_quickPay@31bcf236]" started-at="2024-02-05T20:53:07 IST" name="tearDown" finished-at="2024-02-05T20:53:09 IST" duration-ms="2372" status="PASS">
+        </test-method> <!-- sc_AlreadyLoginScenario -->
+        <test-method signature="sc_AlreadyLoginInValidOTPScenario()[pri:2, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:19:30 IST" name="sc_AlreadyLoginInValidOTPScenario" finished-at="2024-02-06T20:19:43 IST" duration-ms="12647" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_AlreadyLoginInValidOTPScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:19:43 IST" name="tearDown" finished-at="2024-02-06T20:19:45 IST" duration-ms="2381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_quickPay -->
-      <class name="stc.TC_Banners">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_Banners@1941a8ff]" started-at="2024-02-05T21:00:24 IST" name="configureAppium" finished-at="2024-02-05T21:00:35 IST" duration-ms="10852" status="PASS">
+      </class> <!-- stcTwo.TC_11_AlreadyLoginScenario -->
+      <class name="stc.TC_03_Recharge">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:09:43 IST" name="configureAppium" finished-at="2024-02-06T20:09:55 IST" duration-ms="11525" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_BannerVerify()[pri:0, instance:stc.TC_Banners@1941a8ff]" started-at="2024-02-05T21:00:35 IST" name="sc_BannerVerify" finished-at="2024-02-05T21:01:17 IST" duration-ms="42024" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_BannerVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_Banners@1941a8ff]" started-at="2024-02-05T21:01:17 IST" name="tearDown" finished-at="2024-02-05T21:01:19 IST" duration-ms="2455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_Banners -->
-      <class name="stc.TC_HomePageVerify">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_HomePageVerify@77d67cf3]" started-at="2024-02-05T20:51:12 IST" name="configureAppium" finished-at="2024-02-05T20:51:24 IST" duration-ms="12432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_HomePageVerify()[pri:0, instance:stc.TC_HomePageVerify@77d67cf3]" started-at="2024-02-05T20:51:24 IST" name="sc_HomePageVerify" finished-at="2024-02-05T20:52:10 IST" duration-ms="45106" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_HomePageVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_HomePageVerify@77d67cf3]" started-at="2024-02-05T20:52:10 IST" name="tearDown" finished-at="2024-02-05T20:52:12 IST" duration-ms="2332" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_HomePageVerify -->
-      <class name="stc.TC_MultiPayment">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_MultiPayment@4fad9bb2]" started-at="2024-02-05T20:54:04 IST" name="configureAppium" finished-at="2024-02-05T20:54:16 IST" duration-ms="11455" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_MultiplePaymentScenario()[pri:0, instance:stc.TC_MultiPayment@4fad9bb2]" started-at="2024-02-05T20:54:16 IST" name="sc_MultiplePaymentScenario" finished-at="2024-02-05T20:56:52 IST" duration-ms="156590" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_MultiplePaymentScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_MultiPayment@4fad9bb2]" started-at="2024-02-05T20:56:52 IST" name="tearDown" finished-at="2024-02-05T20:56:55 IST" duration-ms="2359" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_MultiPayment -->
-      <class name="stc.TC_Recharge">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_Recharge@4b3ed2f0]" started-at="2024-02-05T20:53:09 IST" name="configureAppium" finished-at="2024-02-05T20:53:20 IST" duration-ms="11296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_RechargeScenario()[pri:0, instance:stc.TC_Recharge@4b3ed2f0]" started-at="2024-02-05T20:53:20 IST" name="sc_RechargeScenario" finished-at="2024-02-05T20:54:02 IST" duration-ms="41578" status="PASS">
+        <test-method signature="sc_RechargeScenario()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:09:55 IST" name="sc_RechargeScenario" finished-at="2024-02-06T20:10:43 IST" duration-ms="47898" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sc_RechargeScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_Recharge@4b3ed2f0]" started-at="2024-02-05T20:54:02 IST" name="tearDown" finished-at="2024-02-05T20:54:04 IST" duration-ms="2354" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:10:43 IST" name="tearDown" finished-at="2024-02-06T20:10:45 IST" duration-ms="2385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_Recharge -->
-      <class name="stc.TC_QuickPay_Civil_ID">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_QuickPay_Civil_ID@3a12c404]" started-at="2024-02-05T20:59:47 IST" name="configureAppium" finished-at="2024-02-05T20:59:58 IST" duration-ms="10852" status="PASS">
+      </class> <!-- stc.TC_03_Recharge -->
+      <class name="stc.TC_02_quickPay">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:08:48 IST" name="configureAppium" finished-at="2024-02-06T20:09:00 IST" duration-ms="12179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_CivilId_QuickPayVerify()[pri:0, instance:stc.TC_QuickPay_Civil_ID@3a12c404]" started-at="2024-02-05T20:59:58 IST" name="sc_CivilId_QuickPayVerify" finished-at="2024-02-05T21:00:21 IST" duration-ms="23010" status="FAIL">
-          <exception class="org.openqa.selenium.InvalidElementStateException">
-            <message>
-              <![CDATA[Cannot set the element to '9'. Did you interact with the correct element?
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d, sendKeysToElement {id=00000000-0000-0150-ffff-ffff000004d9, value=[Ljava.lang.CharSequence;@6f78d086}]
-Capabilities {appium:appActivity: com.mystc.MainActivity, appium:appPackage: com.pixilapps.selfcare, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.mystc.MainActivity, appPackage: com.pixilapps.selfcare, automationName: UIAutomator2, deviceName: AnishEmulator, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A146B, appium:deviceName: RZCW30P5DQB, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW30P5DQB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 65, appium:takesScreenshot: true, appium:viewportRect: {height: 2144, left: 0, top: 65, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Element: [[AndroidDriver:  on ANDROID (9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d)] -> xpath: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[4]]
-Session ID: 9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.InvalidElementStateException: Cannot set the element to '9'. Did you interact with the correct element?
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d, sendKeysToElement {id=00000000-0000-0150-ffff-ffff000004d9, value=[Ljava.lang.CharSequence;@6f78d086}]
-Capabilities {appium:appActivity: com.mystc.MainActivity, appium:appPackage: com.pixilapps.selfcare, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.mystc.MainActivity, appPackage: com.pixilapps.selfcare, automationName: UIAutomator2, deviceName: AnishEmulator, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A146B, appium:deviceName: RZCW30P5DQB, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW30P5DQB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 65, appium:takesScreenshot: true, appium:viewportRect: {height: 2144, left: 0, top: 65, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Element: [[AndroidDriver:  on ANDROID (9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d)] -> xpath: //android.widget.FrameLayout[@resource-id="android:id/content"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[4]]
-Session ID: 9879bbc4-ea24-4ba5-a2ed-c443aa5ef58d
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:111)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at io.appium.java_client.pagefactory.ElementInterceptor.getObject(ElementInterceptor.java:42)
-at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:65)
-at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
-at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$AcHOis1P.sendKeys(Unknown Source)
-at org.stc.pageObjects.android.Civil_Id_OtpPage.getOtp(Civil_Id_OtpPage.java:36)
-at stc.TC_QuickPay_Civil_ID.sc_CivilId_QuickPayVerify(TC_QuickPay_Civil_ID.java:33)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.InvalidElementStateException -->
+        <test-method signature="sc_QuickPayScenario()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:09:00 IST" name="sc_QuickPayScenario" finished-at="2024-02-06T20:09:41 IST" duration-ms="40924" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sc_CivilId_QuickPayVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_QuickPay_Civil_ID@3a12c404]" started-at="2024-02-05T21:00:21 IST" name="tearDown" finished-at="2024-02-05T21:00:24 IST" duration-ms="2331" status="PASS">
+        </test-method> <!-- sc_QuickPayScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:09:41 IST" name="tearDown" finished-at="2024-02-06T20:09:43 IST" duration-ms="2479" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_QuickPay_Civil_ID -->
-      <class name="stc.TC_AddCardScenario">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_AddCardScenario@7862f56]" started-at="2024-02-05T20:58:23 IST" name="configureAppium" finished-at="2024-02-05T20:58:35 IST" duration-ms="11682" status="PASS">
+      </class> <!-- stc.TC_02_quickPay -->
+      <class name="stcTwo.TC_12_DashboardScenario">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:19:45 IST" name="configureAppium" finished-at="2024-02-06T20:19:57 IST" duration-ms="11684" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_AddCardScenario()[pri:0, instance:stc.TC_AddCardScenario@7862f56]" started-at="2024-02-05T20:58:35 IST" name="sc_AddCardScenario" finished-at="2024-02-05T20:59:44 IST" duration-ms="68945" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [54a807a7-7f56-46b5-abc4-08a1b865bb18, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("2027"));}]
-Capabilities {appium:appActivity: com.mystc.MainActivity, appium:appPackage: com.pixilapps.selfcare, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.mystc.MainActivity, appPackage: com.pixilapps.selfcare, automationName: UIAutomator2, deviceName: AnishEmulator, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A146B, appium:deviceName: RZCW30P5DQB, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW30P5DQB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 65, appium:takesScreenshot: true, appium:viewportRect: {height: 2144, left: 0, top: 65, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 54a807a7-7f56-46b5-abc4-08a1b865bb18]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters.
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.9'
-Driver info: io.appium.java_client.android.AndroidDriver
-Command: [54a807a7-7f56-46b5-abc4-08a1b865bb18, findElement {using=-android uiautomator, value=new UiScrollable(new UiSelector().scrollable(true).instance(0)).scrollIntoView(new UiSelector().text("2027"));}]
-Capabilities {appium:appActivity: com.mystc.MainActivity, appium:appPackage: com.pixilapps.selfcare, appium:automationName: UIAutomator2, appium:databaseEnabled: false, appium:desired: {appActivity: com.mystc.MainActivity, appPackage: com.pixilapps.selfcare, automationName: UIAutomator2, deviceName: AnishEmulator, platformName: ANDROID}, appium:deviceApiLevel: 34, appium:deviceManufacturer: samsung, appium:deviceModel: SM-A146B, appium:deviceName: RZCW30P5DQB, appium:deviceScreenDensity: 450, appium:deviceScreenSize: 1080x2408, appium:deviceUDID: RZCW30P5DQB, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 2.8125, appium:platformVersion: 14, appium:statBarHeight: 65, appium:takesScreenshot: true, appium:viewportRect: {height: 2144, left: 0, top: 65, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 54a807a7-7f56-46b5-abc4-08a1b865bb18
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-at org.stc.utils.AndroidActions.scrollText(AndroidActions.java:29)
-at org.stc.pageObjects.android.AddCardPage.setYear(AddCardPage.java:99)
-at stc.TC_AddCardScenario.sc_AddCardScenario(TC_AddCardScenario.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="sc_DashboardScenarioVerifyScenario()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:19:57 IST" name="sc_DashboardScenarioVerifyScenario" finished-at="2024-02-06T20:23:18 IST" duration-ms="201227" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sc_AddCardScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_AddCardScenario@7862f56]" started-at="2024-02-05T20:59:45 IST" name="tearDown" finished-at="2024-02-05T20:59:47 IST" duration-ms="2440" status="PASS">
+        </test-method> <!-- sc_DashboardScenarioVerifyScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:23:18 IST" name="tearDown" finished-at="2024-02-06T20:23:21 IST" duration-ms="2436" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_AddCardScenario -->
-      <class name="stc.TC_quickPay_Multiple_Line_Postpaid">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_quickPay_Multiple_Line_Postpaid@517d4a0d]" started-at="2024-02-05T20:56:55 IST" name="configureAppium" finished-at="2024-02-05T20:57:06 IST" duration-ms="11127" status="PASS">
+      </class> <!-- stcTwo.TC_12_DashboardScenario -->
+      <class name="stc.TC_07_NewsStore">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:16:23 IST" name="configureAppium" finished-at="2024-02-06T20:16:35 IST" duration-ms="12264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_quickPay_Multiple_Line_Postpaid_Scenario()[pri:0, instance:stc.TC_quickPay_Multiple_Line_Postpaid@517d4a0d]" started-at="2024-02-05T20:57:06 IST" name="sc_quickPay_Multiple_Line_Postpaid_Scenario" finished-at="2024-02-05T20:58:21 IST" duration-ms="75241" status="PASS">
+        <test-method signature="sc_NewsAndStoreVerify()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:16:35 IST" name="sc_NewsAndStoreVerify" finished-at="2024-02-06T20:17:26 IST" duration-ms="51040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_NewsAndStoreVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:17:26 IST" name="tearDown" finished-at="2024-02-06T20:17:29 IST" duration-ms="2374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_07_NewsStore -->
+      <class name="stc.TC_04_MultiPayment">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:10:45 IST" name="configureAppium" finished-at="2024-02-06T20:10:57 IST" duration-ms="11818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_MultiplePaymentScenario()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:10:57 IST" name="sc_MultiplePaymentScenario" finished-at="2024-02-06T20:13:34 IST" duration-ms="156992" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_MultiplePaymentScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:13:34 IST" name="tearDown" finished-at="2024-02-06T20:13:36 IST" duration-ms="2560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_04_MultiPayment -->
+      <class name="stc.TC_01_HomePageVerify">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:07:59 IST" name="configureAppium" finished-at="2024-02-06T20:08:11 IST" duration-ms="12381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_HomePageVerify()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:08:11 IST" name="sc_HomePageVerify" finished-at="2024-02-06T20:08:45 IST" duration-ms="34168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_HomePageVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:08:45 IST" name="tearDown" finished-at="2024-02-06T20:08:48 IST" duration-ms="2532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_01_HomePageVerify -->
+      <class name="stc.TC_06_Banners">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:15:20 IST" name="configureAppium" finished-at="2024-02-06T20:15:32 IST" duration-ms="12807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_BannerVerify()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:15:32 IST" name="sc_BannerVerify" finished-at="2024-02-06T20:16:20 IST" duration-ms="47989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_BannerVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:16:20 IST" name="tearDown" finished-at="2024-02-06T20:16:23 IST" duration-ms="2498" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_06_Banners -->
+      <class name="stc.TC_05_quickPay_Multiple_Line_Postpaid">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:13:36 IST" name="configureAppium" finished-at="2024-02-06T20:13:48 IST" duration-ms="12001" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_quickPay_Multiple_Line_Postpaid_Scenario()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:13:48 IST" name="sc_quickPay_Multiple_Line_Postpaid_Scenario" finished-at="2024-02-06T20:15:17 IST" duration-ms="88787" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sc_quickPay_Multiple_Line_Postpaid_Scenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_quickPay_Multiple_Line_Postpaid@517d4a0d]" started-at="2024-02-05T20:58:21 IST" name="tearDown" finished-at="2024-02-05T20:58:23 IST" duration-ms="2375" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:15:17 IST" name="tearDown" finished-at="2024-02-06T20:15:20 IST" duration-ms="2480" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_quickPay_Multiple_Line_Postpaid -->
+      </class> <!-- stc.TC_05_quickPay_Multiple_Line_Postpaid -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

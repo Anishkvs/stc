@@ -45,7 +45,8 @@ public class AmountEditPage extends AndroidActions {
 	@AndroidFindBy(xpath= "//android.widget.TextView[@text=\"Add Another Number\"]")
 	private WebElement addNumber;
 	
-	public void setAddNumber() {
+	public void setAddNumber() throws InterruptedException {
+		Thread.sleep(5000);
 		addNumber.click();
 	}
 	

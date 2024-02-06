@@ -9,45 +9,27 @@ import org.stc.pageObjects.android.NumberPage;
 import org.stc.pageObjects.android.PaymentPage;
 import org.testng.annotations.Test;
 
-public class TC_quickPay extends BaseTest {
-/*
-	// @BeforeMethod
-	public void preSetup() {
-		// Activity activity = new Activity("com.pixilapps.selfcare",
-		// "com.mystc.MainActivity");
-		driver.executeScript("mobile: startActivity",
-				ImmutableMap.of("appPackage", "com.pixilapps.selfcare", "appActivity", "com.mystc.MainActivity"));
+public class TC_03_Recharge extends BaseTest {
 
-	}
-*/
-	@Test
-	public void sc_QuickPayScenario() throws MalformedURLException, InterruptedException {
+		@Test
+	public void sc_RechargeScenario() throws InterruptedException {
+	
 		HomePage home = new HomePage(driver);
 		NumberPage num = new NumberPage(driver);
 		AmountEditPage amountEdit = new AmountEditPage(driver);
 		AmountChoosePage amount = new AmountChoosePage(driver);
 		PaymentPage pay = new PaymentPage(driver);
-
-		home.setQuickPay();
+		home.setRecharge();
 		num.enterNumber("51195933");
-		num.getContinue();
+		num.setContinue();
 		amountEdit.setAmount();
 		amount.setTwoKD();
-		////
-//		amount.setEnterAmount("0");
-//		amount.setclearEnterAmount();
-//		amount.setEnterAmount("26");
-//		amount.setclearEnterAmount();
-//		
-		//////
 		amount.setContinue();
 		amountEdit.setContinueButton();
 		pay.setPayKDAmount();
 		pay.setPaymentFrameBox();
-
+		backToHome();
 	}
-
-	
 
 		public void backToHome() throws InterruptedException {
 		PaymentPage pay = new PaymentPage(driver);

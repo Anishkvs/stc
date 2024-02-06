@@ -41,7 +41,7 @@ public class NumberPage extends AndroidActions {
 	@AndroidFindBy(accessibility= "Continue")
 	private WebElement Continue;
 	
-	public void getContinue() throws InterruptedException {
+	public void setContinue() throws InterruptedException {
 		Continue.click();
 		Thread.sleep(5000);
 

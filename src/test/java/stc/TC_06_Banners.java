@@ -7,7 +7,7 @@ import org.stc.pageObjects.android.BaseTest;
 import org.stc.pageObjects.android.HomePage;
 import org.testng.annotations.Test;
 
-public class TC_Banners extends BaseTest{
+public class TC_06_Banners extends BaseTest{
 
 	@Test
 	public void sc_BannerVerify() throws MalformedURLException, InterruptedException {

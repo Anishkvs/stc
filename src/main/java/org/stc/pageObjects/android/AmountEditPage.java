@@ -87,4 +87,32 @@ public class AmountEditPage extends AndroidActions {
 		Thread.sleep(1000);
 		editInAppAccount.sendKeys(value);
 	}
+	
+	@AndroidFindBy(xpath= "//android.widget.TextView[@text=\"Custom\"]")
+	private WebElement Custom;
+	
+	public void setCustom() {
+		Custom.click();
+	}
+	
+	@AndroidFindBy(xpath= "//android.widget.EditText[@text=\"0\"]")
+	private WebElement EditAmount;
+	
+	public void setEditAmount(String num) {
+		EditAmount.sendKeys(num);
+	}
+	
+	@AndroidFindBy(xpath= "//android.widget.EditText[@text=\"1.00\"]")
+	private WebElement EditAmountOne;
+	
+	public void setEditAmountOne() {
+		EditAmountOne.clear();
+	}
+	@AndroidFindBy(accessibility= "Proceed")
+	private WebElement Proceed;
+	
+	public void setProceed() throws InterruptedException {
+		Proceed.click();
+		Thread.sleep(2000);
+		}
 }

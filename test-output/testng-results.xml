@@ -1,137 +1,193 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-06T20:07:59 IST" name="Suite" finished-at="2024-02-06T20:23:21 IST" duration-ms="922111">
+  <suite started-at="2024-02-08T20:24:03 IST" name="Suite" finished-at="2024-02-08T20:50:29 IST" duration-ms="1586543">
     <groups>
     </groups>
-    <test started-at="2024-02-06T20:07:59 IST" name="Test" finished-at="2024-02-06T20:23:21 IST" duration-ms="922111">
-      <class name="stcTwo.TC_11_AlreadyLoginScenario">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:17:29 IST" name="configureAppium" finished-at="2024-02-06T20:17:41 IST" duration-ms="11959" status="PASS">
+    <test started-at="2024-02-08T20:24:03 IST" name="Test" finished-at="2024-02-08T20:50:29 IST" duration-ms="1586543">
+      <class name="stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill@61a88b8c]" started-at="2024-02-08T20:24:03 IST" name="configureAppium" finished-at="2024-02-08T20:24:33 IST" duration-ms="30155" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_AlreadyLoginScenario()[pri:1, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:17:41 IST" name="sc_AlreadyLoginScenario" finished-at="2024-02-06T20:19:30 IST" duration-ms="109631" status="PASS">
+        <test-method signature="sc_Dashboard_Usage_Subscription_Recharge_PayBill()[pri:0, instance:stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill@61a88b8c]" started-at="2024-02-08T20:24:33 IST" name="sc_Dashboard_Usage_Subscription_Recharge_PayBill" finished-at="2024-02-08T20:26:52 IST" duration-ms="139091" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- sc_AlreadyLoginScenario -->
-        <test-method signature="sc_AlreadyLoginInValidOTPScenario()[pri:2, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:19:30 IST" name="sc_AlreadyLoginInValidOTPScenario" finished-at="2024-02-06T20:19:43 IST" duration-ms="12647" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_AlreadyLoginInValidOTPScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@38831718]" started-at="2024-02-06T20:19:43 IST" name="tearDown" finished-at="2024-02-06T20:19:45 IST" duration-ms="2381" status="PASS">
+        </test-method> <!-- sc_Dashboard_Usage_Subscription_Recharge_PayBill -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill@61a88b8c]" started-at="2024-02-08T20:26:52 IST" name="tearDown" finished-at="2024-02-08T20:26:55 IST" duration-ms="2503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- stcTwo.TC_11_AlreadyLoginScenario -->
-      <class name="stc.TC_03_Recharge">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:09:43 IST" name="configureAppium" finished-at="2024-02-06T20:09:55 IST" duration-ms="11525" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_RechargeScenario()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:09:55 IST" name="sc_RechargeScenario" finished-at="2024-02-06T20:10:43 IST" duration-ms="47898" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_RechargeScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_03_Recharge@7862f56]" started-at="2024-02-06T20:10:43 IST" name="tearDown" finished-at="2024-02-06T20:10:45 IST" duration-ms="2385" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_03_Recharge -->
-      <class name="stc.TC_02_quickPay">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:08:48 IST" name="configureAppium" finished-at="2024-02-06T20:09:00 IST" duration-ms="12179" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_QuickPayScenario()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:09:00 IST" name="sc_QuickPayScenario" finished-at="2024-02-06T20:09:41 IST" duration-ms="40924" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_QuickPayScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_02_quickPay@517d4a0d]" started-at="2024-02-06T20:09:41 IST" name="tearDown" finished-at="2024-02-06T20:09:43 IST" duration-ms="2479" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_02_quickPay -->
-      <class name="stcTwo.TC_12_DashboardScenario">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:19:45 IST" name="configureAppium" finished-at="2024-02-06T20:19:57 IST" duration-ms="11684" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_DashboardScenarioVerifyScenario()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:19:57 IST" name="sc_DashboardScenarioVerifyScenario" finished-at="2024-02-06T20:23:18 IST" duration-ms="201227" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_DashboardScenarioVerifyScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_12_DashboardScenario@2c1156a7]" started-at="2024-02-06T20:23:18 IST" name="tearDown" finished-at="2024-02-06T20:23:21 IST" duration-ms="2436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stcTwo.TC_12_DashboardScenario -->
-      <class name="stc.TC_07_NewsStore">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:16:23 IST" name="configureAppium" finished-at="2024-02-06T20:16:35 IST" duration-ms="12264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_NewsAndStoreVerify()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:16:35 IST" name="sc_NewsAndStoreVerify" finished-at="2024-02-06T20:17:26 IST" duration-ms="51040" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_NewsAndStoreVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_07_NewsStore@149dd36b]" started-at="2024-02-06T20:17:26 IST" name="tearDown" finished-at="2024-02-06T20:17:29 IST" duration-ms="2374" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_07_NewsStore -->
-      <class name="stc.TC_04_MultiPayment">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:10:45 IST" name="configureAppium" finished-at="2024-02-06T20:10:57 IST" duration-ms="11818" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configureAppium -->
-        <test-method signature="sc_MultiplePaymentScenario()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:10:57 IST" name="sc_MultiplePaymentScenario" finished-at="2024-02-06T20:13:34 IST" duration-ms="156992" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sc_MultiplePaymentScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_04_MultiPayment@3a12c404]" started-at="2024-02-06T20:13:34 IST" name="tearDown" finished-at="2024-02-06T20:13:36 IST" duration-ms="2560" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- stc.TC_04_MultiPayment -->
+      </class> <!-- stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill -->
       <class name="stc.TC_01_HomePageVerify">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:07:59 IST" name="configureAppium" finished-at="2024-02-06T20:08:11 IST" duration-ms="12381" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_01_HomePageVerify@253d9f73]" started-at="2024-02-08T20:31:38 IST" name="configureAppium" finished-at="2024-02-08T20:31:50 IST" duration-ms="12392" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_HomePageVerify()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:08:11 IST" name="sc_HomePageVerify" finished-at="2024-02-06T20:08:45 IST" duration-ms="34168" status="PASS">
+        <test-method signature="sc_HomePageVerify()[pri:0, instance:stc.TC_01_HomePageVerify@253d9f73]" started-at="2024-02-08T20:31:50 IST" name="sc_HomePageVerify" finished-at="2024-02-08T20:32:28 IST" duration-ms="37382" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sc_HomePageVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_01_HomePageVerify@6ee6f53]" started-at="2024-02-06T20:08:45 IST" name="tearDown" finished-at="2024-02-06T20:08:48 IST" duration-ms="2532" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_01_HomePageVerify@253d9f73]" started-at="2024-02-08T20:32:28 IST" name="tearDown" finished-at="2024-02-08T20:32:30 IST" duration-ms="2708" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- stc.TC_01_HomePageVerify -->
       <class name="stc.TC_06_Banners">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:15:20 IST" name="configureAppium" finished-at="2024-02-06T20:15:32 IST" duration-ms="12807" status="PASS">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_06_Banners@a22cb6a]" started-at="2024-02-08T20:43:18 IST" name="configureAppium" finished-at="2024-02-08T20:43:31 IST" duration-ms="12736" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_BannerVerify()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:15:32 IST" name="sc_BannerVerify" finished-at="2024-02-06T20:16:20 IST" duration-ms="47989" status="PASS">
+        <test-method signature="sc_BannerVerify()[pri:0, instance:stc.TC_06_Banners@a22cb6a]" started-at="2024-02-08T20:43:31 IST" name="sc_BannerVerify" finished-at="2024-02-08T20:44:18 IST" duration-ms="47652" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sc_BannerVerify -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_06_Banners@22d7b4f8]" started-at="2024-02-06T20:16:20 IST" name="tearDown" finished-at="2024-02-06T20:16:23 IST" duration-ms="2498" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_06_Banners@a22cb6a]" started-at="2024-02-08T20:44:18 IST" name="tearDown" finished-at="2024-02-08T20:44:21 IST" duration-ms="2758" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- stc.TC_06_Banners -->
-      <class name="stc.TC_05_quickPay_Multiple_Line_Postpaid">
-        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:13:36 IST" name="configureAppium" finished-at="2024-02-06T20:13:48 IST" duration-ms="12001" status="PASS">
+      <class name="stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill@2250b9f2]" started-at="2024-02-08T20:26:55 IST" name="configureAppium" finished-at="2024-02-08T20:27:07 IST" duration-ms="12166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configureAppium -->
-        <test-method signature="sc_quickPay_Multiple_Line_Postpaid_Scenario()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:13:48 IST" name="sc_quickPay_Multiple_Line_Postpaid_Scenario" finished-at="2024-02-06T20:15:17 IST" duration-ms="88787" status="PASS">
+        <test-method signature="sc_Dashboard_Manage_Subscription_PayBill()[pri:0, instance:stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill@2250b9f2]" started-at="2024-02-08T20:27:07 IST" name="sc_Dashboard_Manage_Subscription_PayBill" finished-at="2024-02-08T20:29:42 IST" duration-ms="154798" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_Dashboard_Manage_Subscription_PayBill -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill@2250b9f2]" started-at="2024-02-08T20:29:42 IST" name="tearDown" finished-at="2024-02-08T20:29:44 IST" duration-ms="2404" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill -->
+      <class name="stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id@6aa3a905]" started-at="2024-02-08T20:41:18 IST" name="configureAppium" finished-at="2024-02-08T20:41:31 IST" duration-ms="12716" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_GetNewLineMobilePrepaid()[pri:0, instance:stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id@6aa3a905]" started-at="2024-02-08T20:41:31 IST" name="sc_GetNewLineMobilePrepaid" finished-at="2024-02-08T20:43:15 IST" duration-ms="104836" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_GetNewLineMobilePrepaid -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id@6aa3a905]" started-at="2024-02-08T20:43:15 IST" name="tearDown" finished-at="2024-02-08T20:43:18 IST" duration-ms="2401" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id -->
+      <class name="stcTwo.TC_11_AlreadyLoginScenario">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@f316aeb]" started-at="2024-02-08T20:39:11 IST" name="configureAppium" finished-at="2024-02-08T20:39:24 IST" duration-ms="12605" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_AlreadyLoginScenario()[pri:1, instance:stcTwo.TC_11_AlreadyLoginScenario@f316aeb]" started-at="2024-02-08T20:39:24 IST" name="sc_AlreadyLoginScenario" finished-at="2024-02-08T20:41:03 IST" duration-ms="98799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_AlreadyLoginScenario -->
+        <test-method signature="sc_AlreadyLoginInValidOTPScenario()[pri:2, instance:stcTwo.TC_11_AlreadyLoginScenario@f316aeb]" started-at="2024-02-08T20:41:03 IST" name="sc_AlreadyLoginInValidOTPScenario" finished-at="2024-02-08T20:41:15 IST" duration-ms="12533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_AlreadyLoginInValidOTPScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_11_AlreadyLoginScenario@f316aeb]" started-at="2024-02-08T20:41:15 IST" name="tearDown" finished-at="2024-02-08T20:41:18 IST" duration-ms="2611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stcTwo.TC_11_AlreadyLoginScenario -->
+      <class name="stc.TC_03_Recharge">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_03_Recharge@331acdad]" started-at="2024-02-08T20:33:29 IST" name="configureAppium" finished-at="2024-02-08T20:33:42 IST" duration-ms="13270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_RechargeScenario()[pri:0, instance:stc.TC_03_Recharge@331acdad]" started-at="2024-02-08T20:33:42 IST" name="sc_RechargeScenario" finished-at="2024-02-08T20:34:30 IST" duration-ms="48349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_RechargeScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_03_Recharge@331acdad]" started-at="2024-02-08T20:34:30 IST" name="tearDown" finished-at="2024-02-08T20:34:33 IST" duration-ms="2385" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_03_Recharge -->
+      <class name="stc.TC_02_quickPay">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_02_quickPay@142269f2]" started-at="2024-02-08T20:32:30 IST" name="configureAppium" finished-at="2024-02-08T20:32:44 IST" duration-ms="13432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_QuickPayScenario()[pri:0, instance:stc.TC_02_quickPay@142269f2]" started-at="2024-02-08T20:32:44 IST" name="sc_QuickPayScenario" finished-at="2024-02-08T20:33:26 IST" duration-ms="42426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_QuickPayScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_02_quickPay@142269f2]" started-at="2024-02-08T20:33:26 IST" name="tearDown" finished-at="2024-02-08T20:33:29 IST" duration-ms="2735" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_02_quickPay -->
+      <class name="stc.TC_07_NewsStore">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_07_NewsStore@5dd1c9f2]" started-at="2024-02-08T20:44:21 IST" name="configureAppium" finished-at="2024-02-08T20:44:44 IST" duration-ms="22940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_NewsAndStoreVerify()[pri:0, instance:stc.TC_07_NewsStore@5dd1c9f2]" started-at="2024-02-08T20:44:44 IST" name="sc_NewsAndStoreVerify" finished-at="2024-02-08T20:45:35 IST" duration-ms="51276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_NewsAndStoreVerify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_07_NewsStore@5dd1c9f2]" started-at="2024-02-08T20:45:35 IST" name="tearDown" finished-at="2024-02-08T20:45:38 IST" duration-ms="2346" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_07_NewsStore -->
+      <class name="stc.TC_04_MultiPayment">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_04_MultiPayment@41d426b5]" started-at="2024-02-08T20:34:33 IST" name="configureAppium" finished-at="2024-02-08T20:34:45 IST" duration-ms="12641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_MultiplePaymentScenario()[pri:0, instance:stc.TC_04_MultiPayment@41d426b5]" started-at="2024-02-08T20:34:45 IST" name="sc_MultiplePaymentScenario" finished-at="2024-02-08T20:37:26 IST" duration-ms="160276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_MultiplePaymentScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_04_MultiPayment@41d426b5]" started-at="2024-02-08T20:37:26 IST" name="tearDown" finished-at="2024-02-08T20:37:28 IST" duration-ms="2454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stc.TC_04_MultiPayment -->
+      <class name="stcTwo.TC_15_Dashboard_PayAdvance">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_15_Dashboard_PayAdvance@7e3181aa]" started-at="2024-02-08T20:29:44 IST" name="configureAppium" finished-at="2024-02-08T20:29:57 IST" duration-ms="13211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_Dashboard_PayAdvance()[pri:0, instance:stcTwo.TC_15_Dashboard_PayAdvance@7e3181aa]" started-at="2024-02-08T20:29:57 IST" name="sc_Dashboard_PayAdvance" finished-at="2024-02-08T20:31:35 IST" duration-ms="98224" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_Dashboard_PayAdvance -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_15_Dashboard_PayAdvance@7e3181aa]" started-at="2024-02-08T20:31:35 IST" name="tearDown" finished-at="2024-02-08T20:31:38 IST" duration-ms="2347" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stcTwo.TC_15_Dashboard_PayAdvance -->
+      <class name="stcTwo.TC_12_Dashboard_Your_Usage">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stcTwo.TC_12_Dashboard_Your_Usage@59b38691]" started-at="2024-02-08T20:45:38 IST" name="configureAppium" finished-at="2024-02-08T20:45:50 IST" duration-ms="12859" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_Dashboard_Your_Usage()[pri:0, instance:stcTwo.TC_12_Dashboard_Your_Usage@59b38691]" started-at="2024-02-08T20:45:50 IST" name="sc_Dashboard_Your_Usage" finished-at="2024-02-08T20:50:27 IST" duration-ms="276560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sc_Dashboard_Your_Usage -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stcTwo.TC_12_Dashboard_Your_Usage@59b38691]" started-at="2024-02-08T20:50:27 IST" name="tearDown" finished-at="2024-02-08T20:50:29 IST" duration-ms="2360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- stcTwo.TC_12_Dashboard_Your_Usage -->
+      <class name="stc.TC_05_quickPay_Multiple_Line_Postpaid">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@8dbfffb]" started-at="2024-02-08T20:37:28 IST" name="configureAppium" finished-at="2024-02-08T20:37:40 IST" duration-ms="11704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="sc_quickPay_Multiple_Line_Postpaid_Scenario()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@8dbfffb]" started-at="2024-02-08T20:37:40 IST" name="sc_quickPay_Multiple_Line_Postpaid_Scenario" finished-at="2024-02-08T20:39:09 IST" duration-ms="88991" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sc_quickPay_Multiple_Line_Postpaid_Scenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@1941a8ff]" started-at="2024-02-06T20:15:17 IST" name="tearDown" finished-at="2024-02-06T20:15:20 IST" duration-ms="2480" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:stc.TC_05_quickPay_Multiple_Line_Postpaid@8dbfffb]" started-at="2024-02-08T20:39:09 IST" name="tearDown" finished-at="2024-02-08T20:39:11 IST" duration-ms="2425" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

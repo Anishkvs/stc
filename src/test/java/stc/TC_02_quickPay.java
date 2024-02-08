@@ -1,6 +1,9 @@
 package stc;
 
+import static org.testng.Assert.fail;
+
 import java.net.MalformedURLException;
+
 import org.stc.pageObjects.android.AmountChoosePage;
 import org.stc.pageObjects.android.AmountEditPage;
 import org.stc.pageObjects.android.BaseTest;
@@ -31,6 +34,7 @@ public class TC_02_quickPay extends BaseTest {
 		home.setQuickPay();
 		num.enterNumber("51195933");
 		num.setContinue();
+	
 		amountEdit.setAmount();
 		amount.setTwoKD();
 		////

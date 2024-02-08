@@ -44,7 +44,11 @@ public class NumberPage extends AndroidActions {
 	public void setContinue() throws InterruptedException {
 		Continue.click();
 		Thread.sleep(5000);
-
 	}
-
+	@AndroidFindBy(accessibility= "Confirm")
+	private WebElement Confirm;
+	
+	public void setConfirm() throws InterruptedException {
+		Confirm.click();
+		}
 }

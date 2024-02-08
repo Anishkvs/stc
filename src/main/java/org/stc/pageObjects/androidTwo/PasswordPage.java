@@ -45,7 +45,7 @@ public class PasswordPage extends AndroidActions {
 		SendCode.click();
 	}
 	
-	@AndroidFindBy(xpath = "//android.view.ViewGroup[@elementId='00000000-0000-0091-ffff-ffff00000683']")
+	@AndroidFindBy(xpath = "//android.widget.FrameLayout[@resource-id=\"android:id/content\"]/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup/android.view.ViewGroup[1]")
 	private WebElement OTPOne;
 
 	public void setOTPOne(String FirstOtp) {

@@ -60,4 +60,11 @@ public class PaymentPage extends AndroidActions {
 	//	ob.getScreenshotPath(null, driver);
 	}
 	
+	@AndroidFindBy(accessibility = "Place Order")
+	private WebElement PlaceOrder;
+
+	public void setPlaceOrder() throws InterruptedException  {
+		PlaceOrder.click();
+	}
+	
 }

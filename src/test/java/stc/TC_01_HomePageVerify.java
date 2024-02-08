@@ -26,6 +26,11 @@ public class TC_01_HomePageVerify extends BaseTest{
 	@Test
 	public void sc_HomePageVerify() throws MalformedURLException, InterruptedException {
 		HomePage home = new HomePage(driver);
+		home.viewHomeMenu();
+		home.viewEStoreMenu();
+		home.viewPointsMenu();
+		home.viewMoreMenu();
+
 		home.viewHello();
 		home.viewEnglishToArabTransulate();
 		home.viewWelcomeText();

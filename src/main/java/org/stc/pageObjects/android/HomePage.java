@@ -152,5 +152,48 @@ public class HomePage extends AndroidActions {
 	public void getMore() {
 		moreMenu.click();
 	}
+		////////////////
+	@AndroidFindBy(accessibility = "E-STORE")
+	private WebElement EStoreMenu;
 	
+	public void viewEStoreMenu() {
+		Boolean EStore =	EStoreMenu.isDisplayed();
+		System.out.println("E-Store is displayed: "+EStore);
+	}
+	
+	@AndroidFindBy(accessibility = "POINTS")
+	private WebElement PointsMenu;
+	
+	public void viewPointsMenu() {
+		Boolean Points =	PointsMenu.isDisplayed();
+		System.out.println("Points Menu is displayed: "+Points);
+	}
+	
+	@AndroidFindBy(accessibility = "MORE")
+	private WebElement MoreMenu;
+	
+	public void viewMoreMenu() {
+		Boolean More =	MoreMenu.isDisplayed();
+		System.out.println("MoreMenu is displayed: "+More);
+	}
+	
+	@AndroidFindBy(accessibility = "HOME")
+	private WebElement HomeMenu;
+	
+	public void viewHomeMenu() {
+		Boolean home =	HomeMenu.isDisplayed();
+		System.out.println("HomeMenu is displayed: "+home);
+	}
+	
+	@AndroidFindBy(accessibility = "PAY")
+	private WebElement PayMenu;
+	
+	public void viewPayMenu() {
+		Boolean PayMenuOption =	PayMenu.isDisplayed();
+		System.out.println("Pay Menu Option is displayed: "+PayMenuOption);
+	}
+	
+	public void scrollRoaming() {
+		scrollNew();
+	}
 }

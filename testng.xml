@@ -11,19 +11,24 @@
 
 	<test thread-count="5" name="Test">
 		<classes>
+			<class name="stcTwo.TC_13_Dashboard_Usage_Subscription_Recharge_PayBill" />
+			<class name="stcTwo.TC_14_Dashboard_Manage_Subscription_PayBill" />
+			<class name="stcTwo.TC_15_Dashboard_PayAdvance" />
 			<class name="stc.TC_01_HomePageVerify" />
 			<class name="stc.TC_02_quickPay" />
 			<class name="stc.TC_03_Recharge" />
 			<class name="stc.TC_04_MultiPayment" />
 			<class name="stc.TC_05_quickPay_Multiple_Line_Postpaid" />
+			<class name="stcTwo.TC_11_AlreadyLoginScenario" />
+			<class name="stcTwo.TC_16_Get_new_line_mobile_prepaid_civil_id" />
 			<class name="stc.TC_06_Banners" />
 			<class name="stc.TC_07_NewsStore" />
+			<class name="stcTwo.TC_12_Dashboard_Your_Usage" />
 
-			<class name="stcTwo.TC_11_AlreadyLoginScenario" />
-			<class name="stcTwo.TC_12_DashboardScenario" />
-			
 			<!--	<class name="stc.TC_AddCardScenario" />
-			<class name="stc.TC_QuickPay_Civil_ID" />  -->
+			<class name="stc.TC_QuickPay_Civil_ID" /> 
+			<class name="stcTwo.TC_14_Get_new_line_mobile_postpaid_with_device" />
+			 -->
 
 		</classes>
 	</test> <!--

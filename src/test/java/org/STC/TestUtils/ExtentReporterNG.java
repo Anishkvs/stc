@@ -25,7 +25,7 @@ public class ExtentReporterNG {
 		String filePathdate = dateFormat.format(date).toString();
 		String actualReportPath = reportPath + "index.html";
 		new File(actualReportPath).renameTo(new File(
-				System.getProperty("user.dir") + "/Reports/" + "Automation_Report_" + filePathdate + ".html"));
+				System.getProperty("user.dir") + "/reports/" + "Automation_Report_" + filePathdate + ".html"));
 //////////////////
 	//	ExtentReports , ExtentSparkReporter
 		String path =System.getProperty("user.dir")+"//reports//index.html";

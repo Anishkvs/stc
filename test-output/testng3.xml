@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.STC.TestUtils.Listeners"></listener>
+		<!-- <listener
+		class-name="org.STC.TestUtils.AutomationReports"></listener>-->
+
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+
+			<class name="stcThree.TC_03_Get_new_line_internet_postpaid_without_device" />
+			<class name="stcThree.TC_04_Get_new_line_internet_prepaid" />
+			<class name="stcFour.BurgerMenu" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->

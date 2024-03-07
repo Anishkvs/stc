@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="org.STC.TestUtils.Listeners"></listener>
+		<!-- <listener
+		class-name="org.STC.TestUtils.AutomationReports"></listener>-->
+
+	</listeners>
+
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="stcTwo.TC_12_Dashboard_Your_Usage" />
+				
+			<!-- <class name="stcTwo.TC_20_EStore" />
+			
+			<class name="stc.TC_01_HomePageVerify" />
+			<class name="stcTwo.TC_12_Dashboard_Your_Usage" />
+			<class name="stc.TC_02_quickPay" />
+			<class name="stc.TC_03_Recharge" />
+			<class name="stc.TC_04_MultiPayment" />
+			<class name="stc.TC_05_quickPay_Multiple_Line_Postpaid" />
+			<class name="stc.TC_06_Banners" />
+			<class name="stc.TC_07_NewsStore" />
+
+			<class name="stcTwo.TC_11_AlreadyLoginScenario" />
+			<class name="stcTwo.TC_13_Get_new_line_mobile_prepaid_civil_id" />
+			<class name="stcTwo.TC_14_Get_new_line_mobile_postpaid_with_device" />
+-->
+			<!--	<class name="stc.TC_AddCardScenario" />
+			<class name="stc.TC_QuickPay_Civil_ID" />  -->
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Suite -->
